@@ -1,0 +1,9 @@
+def octaedre_regular(): # alumn@ 21 Oriol M
+    print("Càlcul de l'àrea i del volum d'un octaedre regular ")
+    aresta = float(input("aresta = "))
+    area = 2 * pow(3, 0.5) * pow(aresta, 2)
+    volum = pow(2, 0.5) * pow(aresta, 3) * (1/3)
+    return area, volum
+
+a,b = octaedre_regular()
+print("L'area del octaedre regular és: ",a," i el volum és: ",b)
